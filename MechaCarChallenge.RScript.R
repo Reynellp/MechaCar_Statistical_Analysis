@@ -34,7 +34,7 @@ View(Lot_Summary)
 t.test(Suspensioncoil_table$PSI,mu=1500)
 
 ## t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
-### Ref 16-R 2 act 3
+### Ref 16-R 2 activity 3
 Lot1 = subset(Suspensioncoil_table, Manufacturing_Lot == "Lot1")
 View(Lot1)
 Lot2 = subset(Suspensioncoil_table, Manufacturing_Lot == "Lot2")
